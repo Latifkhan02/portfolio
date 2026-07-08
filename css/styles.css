@@ -261,7 +261,7 @@ a:hover {
 	cursor: text;
 	transition: all 0.2s ease;
 }
-
+ 
 .form-control-input:focus + .label-control,
 .form-control-input.notEmpty + .label-control,
 .form-control-textarea:focus + .label-control,
