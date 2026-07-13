@@ -34,15 +34,7 @@ Colors:
 /*     General Styles     */
 /**************************/
 body,
-html {
-    width: 100%;
-	height: 100%;
-}
 
-body, p {
-	color: #4d5055; 
-	font: 400 1rem/1.625rem "Open Sans", sans-serif;
-}
 
 h1 {
 	color: #24262a;
@@ -50,6 +42,14 @@ h1 {
 	font-size: 2.5rem;
 	line-height: 3.25rem;
 	font-family: "Poppins"
+}html {
+    width: 100%;
+	height: 100%;
+}
+
+body, p {
+	color: #4d5055; 
+	font: 400 1rem/1.625rem "Open Sans", sans-serif;
 }
 
 h2 {
@@ -92,15 +92,14 @@ h6 {
 	font-family: "Poppins"
 }
 
-.p-large {
-	font-size: 1.125rem;
-	line-height: 1.75rem;
+xh5 {
+	color: #24262a;
+	font-weight: 700;
+	font-size: 1.25rem;
+	line-height: 1.625rem;
+	font-family: "Poppins"
 }
 
-.p-small {
-	font-size: 0.875rem;
-	line-height: 1.5rem;
-}
 
 .testimonial-text {
 	font-style: italic;
@@ -295,19 +294,7 @@ a:hover {
 	height: 3.25rem;
 	color: #7d838a;
 }
-
-select {
-    /* you should keep these first rules in place to maintain cross-browser behavior */
-    -webkit-appearance: none;
-	-moz-appearance: none;
-	-ms-appearance: none;
-    -o-appearance: none;
-    appearance: none;
-    background-image: url('../images/down-arrow.png');
-    background-position: 96% 50%;
-    background-repeat: no-repeat;
-    outline: none;
-}
+v
 
 .form-control-textarea {
 	display: block; /* used to eliminate a bottom gap difference between Chrome and IE/FF */
